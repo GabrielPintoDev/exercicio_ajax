@@ -26,6 +26,11 @@ document.addEventListener("DOMContentLoaded", function() {
     .catch(function(erro) {
         console.error("Ocorreu um erro: ", erro);
         alert("Erro ao buscar usuário!");
-        name.innerText = "Erro ao carregar";
+        name.innerText = "Erro ao carregar dados do usuário!";
+        username.innerText = "-"
+        repositories.innerText = "-";
+        followers.innerText = "-";
+        following.innerText = "-";
+        link.href = "-";
     })
 })
